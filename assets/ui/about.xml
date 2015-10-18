@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox width="100%" height="100%">
+	<menubar width="100%">
+		<button id="backButton" icon="icons/back_32.png" />
+		<spacer width="50%" />
+		<text text="About" styleName="title" />
+		<spacer width="50%" />
+		<button id="menuButton" icon="icons/menu_32.png" />
+	</menubar>
+</vbox>

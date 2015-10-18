@@ -1,3 +1,26 @@
-#testButton {
-	font-size: 30;
+MenuBar {
+	background-color: #34495E;
+	height: 50;
+	width: 100%;
+	autoSize: false;
+	padding-left:10;
+	padding-right:10;
+}
+
+MenuBar Button, MenuBar Button:over, MenuBar Button:down {
+	filter: none;
+	background-color: #34495E;
+	border-size: 0;
+	padding: 0;
+	vertical-alignment: center;
+}
+
+MenuBar Button #icon {
+	width: 32;
+	height: 32;
+}
+
+.title {
+	font-size: 25;
+	color: #FFFFFF;
 }

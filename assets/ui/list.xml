@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox width="100%" height="100%">
+	<menubar width="100%">
+		<button id="backButton" icon="icons/back_32.png" />
+		<spacer width="50%" />
+		<text text="List" styleName="title" />
+		<spacer width="50%" />
+		<button id="menuButton" icon="icons/menu_32.png" />
+	</menubar>
+	
+	<listview width="100%" height="100%" style="border-size: 0;">
+		<json>
+			[
+				{ "text": "something 1", "subtext": "something 1 description", "icon": "img/folder_32.png" },
+				{ "text": "something 2", "subtext": "something 2 description", "icon": "img/folder_32.png" },
+				{ "text": "something 3", "subtext": "something 3 description", "icon": "img/folder_32.png" },
+				{ "text": "something 4", "subtext": "something 4 description", "icon": "img/folder_32.png" },
+				{ "text": "something 5", "subtext": "something 5 description", "icon": "img/folder_32.png" },
+				{ "text": "something 6", "subtext": "something 6 description", "icon": "img/folder_32.png" },
+				{ "text": "something 7", "subtext": "something 7 description", "icon": "img/folder_32.png" },
+				{ "text": "something 8", "subtext": "something 8 description", "icon": "img/folder_32.png" },
+				{ "text": "something 9", "subtext": "something 9 description", "icon": "img/folder_32.png" },
+				{ "text": "something 10", "subtext": "something 10 description", "icon": "img/folder_32.png" },
+				{ "text": "something 11", "subtext": "something 11 description", "icon": "img/folder_32.png" },
+				{ "text": "something 12", "subtext": "something 12 description", "icon": "img/folder_32.png" },
+				{ "text": "something 13", "subtext": "something 13 description", "icon": "img/folder_32.png" },
+				{ "text": "something 14", "subtext": "something 14 description", "icon": "img/folder_32.png" },
+				{ "text": "something 15", "subtext": "something 15 description", "icon": "img/folder_32.png" },
+				{ "text": "something 16", "subtext": "something 16 description", "icon": "img/folder_32.png" },
+				{ "text": "something 17", "subtext": "something 17 description", "icon": "img/folder_32.png" },
+				{ "text": "something 18", "subtext": "something 18 description", "icon": "img/folder_32.png" },
+				{ "text": "something 19", "subtext": "something 19 description", "icon": "img/folder_32.png" },
+				{ "text": "something 20", "subtext": "something 20 description", "icon": "img/folder_32.png" }
+			]
+		</json>
+	</listview>
+</vbox>

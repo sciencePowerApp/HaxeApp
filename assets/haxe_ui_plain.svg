@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="128px"
+   height="128px"
+   viewBox="0 0 128 128"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="haxe.svg"><metadata
+   id="metadata36"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs34" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="933"
+   id="namedview32"
+   showgrid="false"
+   inkscape:zoom="1.84375"
+   inkscape:cx="-20.610169"
+   inkscape:cy="64"
+   inkscape:window-x="1272"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g4" />
+<g
+   id="g4">
+<rect
+   fill="#6899cd"
+   width="96"
+   height="96"
+   x="16"
+   y="16"
+   id="rect6"
+   style="fill:#6899cd;fill-opacity:1" />
+<polygon
+   fill="#94b6db"
+   points="0,0 4,32 16,64 64,16 32,4"
+   id="polygon8"
+   style="fill:#94b6db;fill-opacity:1" />
+<polygon
+   fill="#7ea7d3"
+   points="0,128 32,124 64,112 16,64 4,96"
+   id="polygon10"
+   style="fill:#7ea7d3;fill-opacity:1" />
+<polygon
+   fill="#3c76b5"
+   points="128,128 124,96 112,64 64,112 96,124"
+   id="polygon12"
+   style="fill:#3c76b5;fill-opacity:1" />
+<polygon
+   fill="#5188c4"
+   points="128,0 96,4 64,16 112,64 124,32"
+   id="polygon14"
+   style="fill:#5188c4;fill-opacity:1" />
+<polygon
+   fill="#a9c4e2"
+   points="0,0 64,16 32,0"
+   id="polygon16"
+   style="fill:#a9c4e2;fill-opacity:1" />
+<polygon
+   fill="#cfdeef"
+   points="0,0 0,32 16,64"
+   id="polygon18"
+   style="fill:#cfdeef;fill-opacity:1" />
+<polygon
+   fill="#cfdeef"
+   points="0,128 16,64 0,96"
+   id="polygon20"
+   style="fill:#cfdeef;fill-opacity:1" />
+<polygon
+   fill="#3d77b7"
+   points="0,128 32,128 64,112"
+   id="polygon22"
+   style="fill:#3d77b7;fill-opacity:1" />
+<polygon
+   fill="#6798cc"
+   points="128,128 64,112 96,128"
+   id="polygon24"
+   style="fill:#6798cc;fill-opacity:1" />
+<polygon
+   fill="#33669c"
+   points="128,128 128,96 112,64"
+   id="polygon26"
+   style="fill:#33669c;fill-opacity:1" />
+<polygon
+   fill="#34679d"
+   points="128,0 112,64 128,32"
+   id="polygon28"
+   style="fill:#34679d;fill-opacity:1" />
+<polygon
+   fill="#a9c4e2"
+   points="128,0 96,0 64,16"
+   id="polygon30"
+   style="fill:#a9c4e2;fill-opacity:1" />
+</g>
+</svg>

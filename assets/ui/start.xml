@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox width="100%" height="100%">
+	<menubar width="100%">
+		<button id="backButton" icon="icons/back_32.png" />
+		<spacer width="50%" />
+		<text text="Start" styleName="title" />
+		<spacer width="50%" />
+		<button id="menuButton" icon="icons/menu_32.png" />
+	</menubar>
+
+	<box width="100%" height="100%">
+		<vbox horizontalAlign="center" verticalAlign="center" style="spacing:20">
+			<button id="lastButton" text="Last Page Opened" horizontalAlign="center" style="font-size:20" />
+			<button id="wizardButton" text="Wizard" horizontalAlign="center" style="font-size:20;" />
+			<button id="listButton" text="List" horizontalAlign="center" style="font-size:20;" />
+			<button id="updateButton" text="Update" horizontalAlign="center" style="font-size:20;" />
+			<button id="aboutButton" text="About" horizontalAlign="center" style="font-size:20;" />
+		</vbox>
+	</box>	
+</vbox>
