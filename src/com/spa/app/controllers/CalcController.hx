@@ -1,7 +1,9 @@
 package com.spa.app.controllers;
 
+import com.spa.app.controllers.definitions.custom.CustomUIController;
 import com.spa.app.controllers.definitions.DefinitionControllerFactory;
 import com.spa.app.controllers.definitions.questions.QuestionController;
+import com.spa.app.engine.custom.CustomUI;
 import com.spa.app.engine.Definitions.DefintionType;
 import com.spa.app.engine.Engine;
 import com.spa.app.engine.Manifest;
@@ -51,9 +53,15 @@ class CalcController extends BaseController {
 	
 	public function showDefinition(id:String) {
 		var defType:DefintionType = _engine.definitions.getDefinitionType(id);
+		if (defType == null) {
+			throw "Unknown definition type for: " + id;
+		}
+		
 		switch (defType) {
 			case DefintionType.QUESTION:
 				showQuestion(id);
+			case DefintionType.CUSTOM:
+				showCustom(id);
 		}
 		updateNavigation();
 	}
@@ -64,12 +72,21 @@ class CalcController extends BaseController {
 			q.value = null;
 		}
 		var controller:QuestionController = DefinitionControllerFactory.buildQuestionController(q, _engine);
-		if (q != null) {
+		if (controller != null) {
 			content.removeAllChildren();
 			content.addChild(controller.view);
 		}
 	}
 
+	public function showCustom(id:String) {
+		var c:CustomUI = _engine.definitions.custom.get(id);
+		var controller:CustomUIController = DefinitionControllerFactory.buildCustomUIController(c, _engine);
+		if (controller != null) {
+			content.removeAllChildren();
+			content.addChild(controller.view);
+		}
+	}
+	
 	public function prev() {
 		_engine.prevDef();
 	}
@@ -80,9 +97,14 @@ class CalcController extends BaseController {
 	
 	public function updateNavigation() {
 		if (quickmode.selected == true) {
+			/*
 			prevDefButton.visible = false;
 			nextDefButton.visible = false;
+			*/
+			navigationButtons.visible = false;
 			return;
+		} else {
+			navigationButtons.visible = true;
 		}
 		
 		if (_engine.prevDefinitionIds.length != 0) {

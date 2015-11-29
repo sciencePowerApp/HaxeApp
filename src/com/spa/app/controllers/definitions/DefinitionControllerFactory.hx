@@ -1,8 +1,10 @@
 package com.spa.app.controllers.definitions;
 
+import com.spa.app.controllers.definitions.custom.CustomUIController;
 import com.spa.app.controllers.definitions.questions.BooleanAltQuestionController;
 import com.spa.app.controllers.definitions.questions.BooleanQuestionController;
 import com.spa.app.controllers.definitions.questions.QuestionController;
+import com.spa.app.engine.custom.CustomUI;
 import com.spa.app.engine.Engine;
 import com.spa.app.engine.questions.Question;
 
@@ -26,6 +28,13 @@ class DefinitionControllerFactory {
 			controller.question = q;
 		}
 		
+		return controller;
+	}
+	
+	public static function buildCustomUIController(c:CustomUI, engine:Engine):CustomUIController {
+		var controller:CustomUIController = new CustomUIController();
+		controller.engine = engine;
+		controller.customUI = c;
 		return controller;
 	}
 }

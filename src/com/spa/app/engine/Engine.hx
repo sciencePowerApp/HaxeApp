@@ -1,10 +1,13 @@
 package com.spa.app.engine;
 import com.spa.app.controllers.CalcController;
+import com.spa.app.engine.custom.CustomUI;
 import com.spa.app.engine.Definitions.DefintionType;
 import com.spa.app.engine.Manifest.ManifestResourceEntry;
 import com.spa.app.engine.questions.Question;
 import com.spa.app.engine.questions.QuestionFactory;
 import com.spa.app.resources.ResourceLoaderFactory;
+import haxe.ui.toolkit.core.Component;
+import haxe.ui.toolkit.core.Toolkit;
 
 class Engine {
 	public var controller:CalcController;
@@ -119,31 +122,58 @@ class Engine {
 	private function processXMLResource(xml:Xml) {
 		xml = xml.firstElement();
 		
-		for (el in xml.elements()) {
-			var type:String = el.get("type");
-			switch (Definitions.parseType(type)) {
-				case DefintionType.QUESTION:
-					var q:Question = QuestionFactory.get(Question.parseType(el.get("value")), this);
-					q.id = el.nodeName;
-					if (el.firstChild() != null) {
-						q.prompt = el.firstChild().nodeValue;
-					}
-					
-					for (attrName in el.attributes()) {
-						var attrValue = el.get(attrName);
-						switch (attrName) {
-							case "type" | "value": // skip reserved attributes	
-							case "default":
-								q.defaultValue = attrValue;
-								q.setValueNoTrigger(attrValue);
-							default:
-								q.properties.set(attrName, attrValue);
-						}
-					}
-					
-					definitions.questions.set(q.id, q);
+		if (xml.nodeName == "definitions") { // load defs
+			for (el in xml.elements()) {
+				var type:String = el.get("type");
+				processXMLNode(el, type);
 			}
+		} else { // assume the whole thing is a def
+			var type:String = xml.get("type");
+			if (type == null) { // default to a UI
+				type = "custom";
+			}
+			processXMLNode(xml, type);
 		}
 	}
 	
+	private function processXMLNode(xml:Xml, type:String) {
+		switch (Definitions.parseType(type)) {
+			case DefintionType.QUESTION:
+				processXMLQuestion(xml);
+			case DefintionType.CUSTOM:	
+				processXMLCustom(xml);
+		}
+	}
+	
+	private function processXMLQuestion(xml:Xml) {
+		var q:Question = QuestionFactory.get(Question.parseType(xml.get("value")), this);
+		q.id = xml.nodeName;
+		if (xml.firstChild() != null) {
+			q.prompt = xml.firstChild().nodeValue;
+		}
+		
+		for (attrName in xml.attributes()) {
+			var attrValue = xml.get(attrName);
+			switch (attrName) {
+				case "type" | "value": // skip reserved attributes	
+				case "default":
+					q.defaultValue = attrValue;
+					q.setValueNoTrigger(attrValue);
+				default:
+					q.properties.set(attrName, attrValue);
+			}
+		}
+		
+		definitions.questions.set(q.id, q);
+	}
+	
+	private function processXMLCustom(xml:Xml) {
+		var component:Component = Toolkit.processXml(xml);
+		
+		var custom:CustomUI = new CustomUI();
+		custom.id = xml.nodeName;
+		custom.ui = component;
+		
+		definitions.custom.set(custom.id, custom);
+	}
 }

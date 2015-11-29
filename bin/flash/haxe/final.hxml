@@ -3,12 +3,14 @@
 -D haxeui=1.8.1
 -cp C:/Servers/Haxe/haxe/lib/hscript/2,0,5
 -D hscript=2.0.5
--cp C:/Servers/Haxe/haxe/lib/openfl/3,4,0
--D openfl=3.4.0
 -cp C:/Servers/Haxe/haxe/lib/lime/2,7,0
 -D lime=2.7.0
 -cp C:/Servers/Haxe/haxe/lib/actuate/1,8,6
 -D actuate=1.8.6
+-cp C:/Servers/Haxe/haxe/lib/hx-mathml/1,0,0
+-D hx-mathml=1.0.0
+-cp C:/Servers/Haxe/haxe/lib/openfl/3,4,0
+-D openfl=3.4.0
 -cp src
 -cp assets
 -D native-trace

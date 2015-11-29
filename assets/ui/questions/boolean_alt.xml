@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<vbox horizontalAlign="center" width="100%">
+<vbox horizontalAlign="center" width="100%" style="padding-right:20;padding-left:20;">
 	<style>
 		.questionPrompt {
 			font-size: 30;
@@ -9,10 +9,15 @@
 			font-embedded: false;
 		}
 	</style>
-	<text id="questionText" styleName="questionPrompt" width="100%" multiline="true" wrapLines="true" />
-	<hbox horizontalAlign="center" style="padding: 10;padding-left: 30;padding-right:30" width="100%">
-		<button id="questionYes" width="100" height="100" autoSize="false" icon="icons/tick_32.png" iconPosition="center" toggle="true" />
+	<hbox width="100%">
+		<box style="padding-top: 5;">
+			<image resource="icons/question_32.png" />
+		</box>			
+		<text id="questionText" styleName="questionPrompt" width="100%" multiline="true" wrapLines="true" />
+	</hbox>
+	<hbox horizontalAlign="center" style="padding: 30;padding-left: 30;padding-right:30" width="100%">
+		<button id="questionYes" width="100" height="100" autoSize="false" icon="icons/tick_32.png" iconPosition="center" toggle="true" group="booleanGroup" />
 		<spacer width="100%" />
-		<button id="questionNo" width="100" height="100" autoSize="false" icon="icons/cross_32.png" iconPosition="center" toggle="true" />
+		<button id="questionNo" width="100" height="100" autoSize="false" icon="icons/cross_32.png" iconPosition="center" toggle="true" group="booleanGroup" />
 	</hbox>
 </vbox>

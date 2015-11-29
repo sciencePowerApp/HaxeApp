@@ -358,6 +358,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/examples/eg1/d_from_t_for_correlated_samples.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("assets/examples/eg1/main.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -450,6 +454,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/ui/custom/custom.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("assets/ui/list.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -507,6 +515,10 @@ class ApplicationMain {
 		
 		
 		urls.push ("ui/calc.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("ui/custom/custom.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
@@ -610,6 +622,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("examples/eg1/d_from_t_for_correlated_samples.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("examples/eg1/main.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -678,7 +694,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "315",
+			build: "434",
 			company: "...",
 			file: "HaxeApp",
 			fps: 60,

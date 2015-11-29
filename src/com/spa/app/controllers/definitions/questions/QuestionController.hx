@@ -18,7 +18,7 @@ class QuestionController extends DefinitionController {
 		return value;
 	}
 	
-	private function refreshUI() {
+	private override function refreshUI() {
 		
 	}
 	

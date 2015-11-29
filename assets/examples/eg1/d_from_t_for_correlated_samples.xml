@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<d_from_t_for_correlated_samples>
+	<vbox width="100%">
+		<text>Correlated (or Dependent) Samples</text>
+		<grid columns="4" width="100%">
+			<text>Mean 1</text>
+			<input id="m1" default="8.7" width="50%"></input>
+			
+			<text>Mean 2</text>
+			<input id="m2" default="7.7" width="50%"></input>
+			
+			<text>SD 1</text>
+			<input id="SD1" default="0.823272602" width="50%"></input>
+			
+			<text>SD 2</text>
+			<input id="SD2" default="0.948683298" width="50%"></input>
+			
+			<text>n pairs</text>
+			<input id="n" default="10" width="50%"></input>
+			
+			<text>r</text>
+			<input id="r" default="0.72554232" width="50%"></input>
+			
+			
+			<text>M diff</text>
+			<input width="50%"></input>
+			
+			<text>cohen's d z</text>
+			<input width="50%"></input>
+			
+			<text>S diff</text>
+			<input width="50%"></input>
+
+			<text>cohen's d rm</text>
+			<input width="50%"></input>
+
+			<text>SE diff</text>
+			<input width="50%"></input>
+			
+			<text>Hedges g rm</text>
+			<input width="50%"></input>
+			
+			<text>95% CI Mdiff [Low]</text>
+			<input width="50%"></input>
+			
+			<text>95% CI Mdiff [High]</text>
+			<input width="50%"></input>
+			
+			<text>Cohen's d av</text>
+			<input width="50%"></input>
+			
+			<text>Hedges d av</text>
+			<input width="50%"></input>
+			
+			<text>t</text>
+			<input width="50%"></input>
+			
+			<text>df</text>
+			<input width="50%"></input>
+			
+			<text>p</text>
+			<input width="50%"></input>
+			
+			<text>Recommended:</text>
+			<input width="50%"></input>
+			
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+
+			
+			
+			
+			
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			<text>CL effect size:</text>
+			<input width="50%"></input>
+			
+		</grid>
+	</vbox>	
+</d_from_t_for_correlated_samples>
