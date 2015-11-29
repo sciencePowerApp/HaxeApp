@@ -1,6 +1,5 @@
 package com.spa.app;
 
-import com.spa.app.controllers.MainController;
 import haxe.ui.toolkit.core.Root;
 import haxe.ui.toolkit.core.Toolkit;
 import haxe.ui.toolkit.style.Style;
@@ -10,6 +9,7 @@ import openfl.Assets;
 
 class Main {
 	public static function main() {
+		
 		Toolkit.theme = new GradientTheme();
 		Toolkit.init();
 		Toolkit.addStyleSheet("css/main.css");

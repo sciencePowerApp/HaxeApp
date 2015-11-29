@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<definitions id="main">
+	<t_test type="question" value="boolean" default="yes" yes="comparison_between_correlated_samples" no="f_test">1A. Is it a t-test?</t_test>
+	
+		<comparison_between_correlated_samples type="question" value="boolean" yes="means_sds_r_n" no="means_sds_n">2A. Is the comparison between correlated samples?</comparison_between_correlated_samples>
+			<means_sds_r_n type="question" value="boolean">3A. Do you have the M's, SD's, r, and N?</means_sds_r_n>
+			<means_sds_n type="question" value="boolean">3B. Do you have the M's, SD's, and n's?</means_sds_n>
+	
+		<f_test type="question" value="boolean">2B. Is it a F-test?</f_test>
+</definitions>

@@ -12,7 +12,8 @@ class MainController extends BaseController {
 		};
 		
 		startButton.onClick = function(e) {
-			Views.start();
-		}
+			//Views.start();
+			Views.calc();
+		};
 	}
 }

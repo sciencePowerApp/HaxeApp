@@ -2,6 +2,7 @@ package com.spa.app;
 
 import com.spa.app.controllers.AboutController;
 import com.spa.app.controllers.BaseController;
+import com.spa.app.controllers.CalcController;
 import com.spa.app.controllers.ListController;
 import com.spa.app.controllers.MainController;
 import com.spa.app.controllers.MenuController;
@@ -33,6 +34,14 @@ class Views {
 			_start = new StartController();
 		}
 		showView(_start);
+	}
+
+	private static var _calc:CalcController;
+	public static function calc():Void {
+		if (_calc == null) {
+			_calc = new CalcController();
+		}
+		showView(_calc);
 	}
 
 	private static var _wizard:WizardController;

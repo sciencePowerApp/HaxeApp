@@ -42,6 +42,7 @@
 		<assets path="assets/fonts" rename="fonts" />
 		<assets path="assets/icons" rename="icons" />
 		<assets path="assets/img" rename="img" />
+		<assets path="assets/examples" rename="examples" />
 	</section>
 	<!-- embedded resources, inside final output -->
 	<section if="haxeui-embed-resources">
@@ -51,6 +52,7 @@
 		<assets path="assets/fonts" rename="fonts" embed="true" />
 		<assets path="assets/icons" rename="icons" embed="true" />
 		<assets path="assets/img" rename="img" embed="true" />
+		<assets path="assets/examples" rename="examples" embed="true" />
 	</section>
 	
 	<!-- optimize output

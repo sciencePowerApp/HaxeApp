@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest entryPoint="t_test">
+	<resource id="examples/eg1/main.xml" type="asset" />
+</manifest>
