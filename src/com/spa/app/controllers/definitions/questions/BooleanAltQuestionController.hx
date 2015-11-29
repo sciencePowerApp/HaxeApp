@@ -1,7 +1,7 @@
 package com.spa.app.controllers.definitions.questions;
 
-@:build(haxe.ui.toolkit.core.Macros.buildController("assets/ui/questions/boolean.xml"))
-class BooleanQuestionController extends QuestionController {
+@:build(haxe.ui.toolkit.core.Macros.buildController("assets/ui/questions/boolean_alt.xml"))
+class BooleanAltQuestionController extends QuestionController {
 	public function new() {
 		questionYes.onChange = function(e) {
 			updateValue();
@@ -10,7 +10,7 @@ class BooleanQuestionController extends QuestionController {
 			updateValue();
 		};
 	}
-	
+
 	private function updateValue() {
 		if (questionYes.selected == false && questionNo.selected == false) {
 			return;
@@ -27,6 +27,7 @@ class BooleanQuestionController extends QuestionController {
 		questionText.text = question.prompt;
 	}
 	
+	
 	private override function refreshValueUI() {
 		super.refreshValueUI();
 		if (question.value != null) {
@@ -40,4 +41,4 @@ class BooleanQuestionController extends QuestionController {
 		
 		updateValue();
 	}
-}
+}	

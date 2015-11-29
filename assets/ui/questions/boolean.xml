@@ -2,13 +2,14 @@
 <vbox horizontalAlign="center" width="100%">
 	<style>
 		.questionPrompt {
-			font-size: 20;
+			font-size: 30;
 			font-bold: true;
 			font-italic: false;
 			font-name: "_sans";
+			font-embedded: false;
 		}
 	</style>
-	<text id="questionText" styleName="questionPrompt" width="100%" wrapLines="true" />
+	<text id="questionText" styleName="questionPrompt" width="100%" multiline="true" wrapLines="true" />
 	<hbox horizontalAlign="center" style="padding-top: 10">
 		<optionbox id="questionYes" styleName="booleanQuestion" text="Yes" group="booleanGroup" />
 		<optionbox id="questionNo" styleName="booleanQuestion" text="No" group="booleanGroup" />

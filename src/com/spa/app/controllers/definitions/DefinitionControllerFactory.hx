@@ -1,5 +1,6 @@
 package com.spa.app.controllers.definitions;
 
+import com.spa.app.controllers.definitions.questions.BooleanAltQuestionController;
 import com.spa.app.controllers.definitions.questions.BooleanQuestionController;
 import com.spa.app.controllers.definitions.questions.QuestionController;
 import com.spa.app.engine.Engine;
@@ -14,7 +15,8 @@ class DefinitionControllerFactory {
 		var controller:QuestionController = null;
 		switch (q.type) {
 			case QuestionType.BOOLEAN:
-				controller = new BooleanQuestionController();
+				//controller = new BooleanQuestionController();
+				controller = new BooleanAltQuestionController();
 		}
 		
 		if (controller == null) {

@@ -358,6 +358,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/examples/eg1/main.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("assets/examples/eg1/manifest.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -406,11 +410,27 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/icons/cross_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/icons/forward_32.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/icons/information_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/icons/menu_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/icons/question_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/icons/tick_32.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -426,6 +446,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/ui/calc.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("assets/ui/list.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -435,6 +459,14 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/ui/menu.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/ui/questions/boolean.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/ui/questions/boolean_alt.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
@@ -474,6 +506,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("ui/calc.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("ui/list.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -483,6 +519,14 @@ class ApplicationMain {
 		
 		
 		urls.push ("ui/menu.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("ui/questions/boolean.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("ui/questions/boolean_alt.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
@@ -534,11 +578,27 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("icons/cross_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("icons/forward_32.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("icons/information_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("icons/menu_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("icons/question_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("icons/tick_32.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -548,6 +608,10 @@ class ApplicationMain {
 		
 		urls.push ("img/folder_32.png");
 		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("examples/eg1/main.xml");
+		types.push (lime.Assets.AssetType.TEXT);
 		
 		
 		urls.push ("examples/eg1/manifest.xml");
@@ -614,7 +678,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "71",
+			build: "315",
 			company: "...",
 			file: "HaxeApp",
 			fps: 60,

@@ -44,7 +44,6 @@ class Engine {
 	****************************************************************************************************/
 	public function questionValueChanged(q:Question) {
 		controller.updateNavigation();
-		trace("changed");
 		if (quickMode == true) {
 			nextDef();
 		}
