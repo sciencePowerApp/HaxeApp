@@ -137,6 +137,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_opensans_bold_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_opensans_italic_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_opensans_regular_ttf);
@@ -183,6 +184,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_opensans_bold_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_opensans_italic_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_opensans_regular_ttf);
@@ -191,6 +196,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_roboto_italic_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_roboto_medium_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_roboto_regular_ttf);
+		
+		
+		
 		
 		
 		
@@ -374,6 +382,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/css/mobile.min.css", AssetType.TEXT);
 		className.set ("assets/examples/eg1/d_from_t_for_correlated_samples.xml", __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples_xml);
 		type.set ("assets/examples/eg1/d_from_t_for_correlated_samples.xml", AssetType.TEXT);
+		className.set ("assets/examples/eg1/d_from_t_for_correlated_samples2.xml", __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples2_xml);
+		type.set ("assets/examples/eg1/d_from_t_for_correlated_samples2.xml", AssetType.TEXT);
 		className.set ("assets/examples/eg1/main.xml", __ASSET__assets_examples_eg1_main_xml);
 		type.set ("assets/examples/eg1/main.xml", AssetType.TEXT);
 		className.set ("assets/examples/eg1/manifest.xml", __ASSET__assets_examples_eg1_manifest_xml);
@@ -400,6 +410,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/haxe_ui_plain.svg", AssetType.TEXT);
 		className.set ("assets/icons/back_32.png", __ASSET__assets_icons_back_32_png);
 		type.set ("assets/icons/back_32.png", AssetType.IMAGE);
+		className.set ("assets/icons/calculator_32.png", __ASSET__assets_icons_calculator_32_png);
+		type.set ("assets/icons/calculator_32.png", AssetType.IMAGE);
+		className.set ("assets/icons/calculator_black_32.png", __ASSET__assets_icons_calculator_black_32_png);
+		type.set ("assets/icons/calculator_black_32.png", AssetType.IMAGE);
 		className.set ("assets/icons/cross_32.png", __ASSET__assets_icons_cross_32_png);
 		type.set ("assets/icons/cross_32.png", AssetType.IMAGE);
 		className.set ("assets/icons/forward_32.png", __ASSET__assets_icons_forward_32_png);
@@ -418,6 +432,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/img/folder_32.png", AssetType.IMAGE);
 		className.set ("assets/ui/about.xml", __ASSET__assets_ui_about_xml);
 		type.set ("assets/ui/about.xml", AssetType.TEXT);
+		className.set ("assets/ui/calc/calc.xml", __ASSET__assets_ui_calc_calc_xml);
+		type.set ("assets/ui/calc/calc.xml", AssetType.TEXT);
 		className.set ("assets/ui/calc.xml", __ASSET__assets_ui_calc_xml);
 		type.set ("assets/ui/calc.xml", AssetType.TEXT);
 		className.set ("assets/ui/custom/custom.xml", __ASSET__assets_ui_custom_custom_xml);
@@ -450,6 +466,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("css/mobile.min.css", AssetType.TEXT);
 		className.set ("ui/about.xml", __ASSET__ui_about_xml);
 		type.set ("ui/about.xml", AssetType.TEXT);
+		className.set ("ui/calc/calc.xml", __ASSET__ui_calc_calc_xml);
+		type.set ("ui/calc/calc.xml", AssetType.TEXT);
 		className.set ("ui/calc.xml", __ASSET__ui_calc_xml);
 		type.set ("ui/calc.xml", AssetType.TEXT);
 		className.set ("ui/custom/custom.xml", __ASSET__ui_custom_custom_xml);
@@ -488,6 +506,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("fonts/Roboto-Regular.ttf", AssetType.FONT);
 		className.set ("icons/back_32.png", __ASSET__icons_back_32_png);
 		type.set ("icons/back_32.png", AssetType.IMAGE);
+		className.set ("icons/calculator_32.png", __ASSET__icons_calculator_32_png);
+		type.set ("icons/calculator_32.png", AssetType.IMAGE);
+		className.set ("icons/calculator_black_32.png", __ASSET__icons_calculator_black_32_png);
+		type.set ("icons/calculator_black_32.png", AssetType.IMAGE);
 		className.set ("icons/cross_32.png", __ASSET__icons_cross_32_png);
 		type.set ("icons/cross_32.png", AssetType.IMAGE);
 		className.set ("icons/forward_32.png", __ASSET__icons_forward_32_png);
@@ -506,6 +528,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("img/folder_32.png", AssetType.IMAGE);
 		className.set ("examples/eg1/d_from_t_for_correlated_samples.xml", __ASSET__examples_eg1_d_from_t_for_correlated_samples_xml);
 		type.set ("examples/eg1/d_from_t_for_correlated_samples.xml", AssetType.TEXT);
+		className.set ("examples/eg1/d_from_t_for_correlated_samples2.xml", __ASSET__examples_eg1_d_from_t_for_correlated_samples2_xml);
+		type.set ("examples/eg1/d_from_t_for_correlated_samples2.xml", AssetType.TEXT);
 		className.set ("examples/eg1/main.xml", __ASSET__examples_eg1_main_xml);
 		type.set ("examples/eg1/main.xml", AssetType.TEXT);
 		className.set ("examples/eg1/manifest.xml", __ASSET__examples_eg1_manifest_xml);
@@ -847,6 +871,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
+		id = "assets/examples/eg1/d_from_t_for_correlated_samples2.xml";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
 		id = "assets/examples/eg1/main.xml";
 		path.set (id, id);
 		
@@ -899,6 +927,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "assets/icons/calculator_32.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/icons/calculator_black_32.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "assets/icons/cross_32.png";
 		path.set (id, id);
 		
@@ -932,6 +968,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.IMAGE);
 		id = "assets/ui/about.xml";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
+		id = "assets/ui/calc/calc.xml";
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
@@ -996,6 +1036,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.TEXT);
 		id = "ui/about.xml";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
+		id = "ui/calc/calc.xml";
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
@@ -1075,6 +1119,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "icons/calculator_32.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "icons/calculator_black_32.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "icons/cross_32.png";
 		path.set (id, id);
 		
@@ -1108,6 +1160,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.IMAGE);
 		id = "examples/eg1/d_from_t_for_correlated_samples.xml";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
+		id = "examples/eg1/d_from_t_for_correlated_samples2.xml";
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
@@ -1386,6 +1442,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/examples/eg1/d_from_t_for_correlated_samples.xml", __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples_xml);
 		type.set ("assets/examples/eg1/d_from_t_for_correlated_samples.xml", AssetType.TEXT);
 		
+		className.set ("assets/examples/eg1/d_from_t_for_correlated_samples2.xml", __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples2_xml);
+		type.set ("assets/examples/eg1/d_from_t_for_correlated_samples2.xml", AssetType.TEXT);
+		
 		className.set ("assets/examples/eg1/main.xml", __ASSET__assets_examples_eg1_main_xml);
 		type.set ("assets/examples/eg1/main.xml", AssetType.TEXT);
 		
@@ -1425,6 +1484,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/icons/back_32.png", __ASSET__assets_icons_back_32_png);
 		type.set ("assets/icons/back_32.png", AssetType.IMAGE);
 		
+		className.set ("assets/icons/calculator_32.png", __ASSET__assets_icons_calculator_32_png);
+		type.set ("assets/icons/calculator_32.png", AssetType.IMAGE);
+		
+		className.set ("assets/icons/calculator_black_32.png", __ASSET__assets_icons_calculator_black_32_png);
+		type.set ("assets/icons/calculator_black_32.png", AssetType.IMAGE);
+		
 		className.set ("assets/icons/cross_32.png", __ASSET__assets_icons_cross_32_png);
 		type.set ("assets/icons/cross_32.png", AssetType.IMAGE);
 		
@@ -1451,6 +1516,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/ui/about.xml", __ASSET__assets_ui_about_xml);
 		type.set ("assets/ui/about.xml", AssetType.TEXT);
+		
+		className.set ("assets/ui/calc/calc.xml", __ASSET__assets_ui_calc_calc_xml);
+		type.set ("assets/ui/calc/calc.xml", AssetType.TEXT);
 		
 		className.set ("assets/ui/calc.xml", __ASSET__assets_ui_calc_xml);
 		type.set ("assets/ui/calc.xml", AssetType.TEXT);
@@ -1499,6 +1567,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("ui/about.xml", __ASSET__ui_about_xml);
 		type.set ("ui/about.xml", AssetType.TEXT);
+		
+		className.set ("ui/calc/calc.xml", __ASSET__ui_calc_calc_xml);
+		type.set ("ui/calc/calc.xml", AssetType.TEXT);
 		
 		className.set ("ui/calc.xml", __ASSET__ui_calc_xml);
 		type.set ("ui/calc.xml", AssetType.TEXT);
@@ -1557,6 +1628,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("icons/back_32.png", __ASSET__icons_back_32_png);
 		type.set ("icons/back_32.png", AssetType.IMAGE);
 		
+		className.set ("icons/calculator_32.png", __ASSET__icons_calculator_32_png);
+		type.set ("icons/calculator_32.png", AssetType.IMAGE);
+		
+		className.set ("icons/calculator_black_32.png", __ASSET__icons_calculator_black_32_png);
+		type.set ("icons/calculator_black_32.png", AssetType.IMAGE);
+		
 		className.set ("icons/cross_32.png", __ASSET__icons_cross_32_png);
 		type.set ("icons/cross_32.png", AssetType.IMAGE);
 		
@@ -1583,6 +1660,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("examples/eg1/d_from_t_for_correlated_samples.xml", __ASSET__examples_eg1_d_from_t_for_correlated_samples_xml);
 		type.set ("examples/eg1/d_from_t_for_correlated_samples.xml", AssetType.TEXT);
+		
+		className.set ("examples/eg1/d_from_t_for_correlated_samples2.xml", __ASSET__examples_eg1_d_from_t_for_correlated_samples2_xml);
+		type.set ("examples/eg1/d_from_t_for_correlated_samples2.xml", AssetType.TEXT);
 		
 		className.set ("examples/eg1/main.xml", __ASSET__examples_eg1_main_xml);
 		type.set ("examples/eg1/main.xml", AssetType.TEXT);
@@ -2390,6 +2470,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_css_mobile_css extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_css_mobile_min_css extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples_xml extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples2_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_examples_eg1_main_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_examples_eg1_manifest_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_fonts_opensans_bold_ttf extends flash.text.Font { }
@@ -2403,6 +2484,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_haxeui_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_haxe_ui_plain_svg extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_icons_back_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_icons_calculator_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_icons_calculator_black_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_icons_cross_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_icons_forward_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_icons_information_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -2412,6 +2495,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_img_a_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_img_folder_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_ui_about_xml extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_ui_calc_calc_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_ui_calc_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_ui_custom_custom_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_ui_list_xml extends flash.utils.ByteArray { }
@@ -2428,6 +2512,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__css_mobile_css extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__css_mobile_min_css extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__ui_about_xml extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__ui_calc_calc_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__ui_calc_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__ui_custom_custom_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__ui_list_xml extends flash.utils.ByteArray { }
@@ -2447,6 +2532,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__fonts_roboto_medium_ttf extends flash.text.Font { }
 @:keep @:bind #if display private #end class __ASSET__fonts_roboto_regular_ttf extends flash.text.Font { }
 @:keep @:bind #if display private #end class __ASSET__icons_back_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__icons_calculator_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__icons_calculator_black_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__icons_cross_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__icons_forward_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__icons_information_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -2456,6 +2543,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__img_a_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__img_folder_32_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__examples_eg1_d_from_t_for_correlated_samples_xml extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__examples_eg1_d_from_t_for_correlated_samples2_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__examples_eg1_main_xml extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__examples_eg1_manifest_xml extends flash.utils.ByteArray { }
 
@@ -2547,6 +2635,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
 @:keep #if display private #end class __ASSET__assets_fonts_opensans_bold_ttf extends lime.text.Font { public function new () { super (); name = "Open Sans Bold"; } } 
 @:keep #if display private #end class __ASSET__assets_fonts_opensans_italic_ttf extends lime.text.Font { public function new () { super (); name = "Open Sans Italic"; } } 
 @:keep #if display private #end class __ASSET__assets_fonts_opensans_regular_ttf extends lime.text.Font { public function new () { super (); name = "Open Sans"; } } 
@@ -2593,6 +2682,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
+
 @:keep #if display private #end class __ASSET__fonts_opensans_bold_ttf extends lime.text.Font { public function new () { super (); name = "Open Sans Bold"; } } 
 @:keep #if display private #end class __ASSET__fonts_opensans_italic_ttf extends lime.text.Font { public function new () { super (); name = "Open Sans Italic"; } } 
 @:keep #if display private #end class __ASSET__fonts_opensans_regular_ttf extends lime.text.Font { public function new () { super (); name = "Open Sans"; } } 
@@ -2601,6 +2694,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep #if display private #end class __ASSET__fonts_roboto_italic_ttf extends lime.text.Font { public function new () { super (); name = "Roboto Italic"; } } 
 @:keep #if display private #end class __ASSET__fonts_roboto_medium_ttf extends lime.text.Font { public function new () { super (); name = "Roboto Medium"; } } 
 @:keep #if display private #end class __ASSET__fonts_roboto_regular_ttf extends lime.text.Font { public function new () { super (); name = "Roboto Regular"; } } 
+
+
+
 
 
 
@@ -2705,6 +2801,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/css/mobile.css") #if display private #end class __ASSET__assets_css_mobile_css extends lime.utils.ByteArray {}
 @:file("assets/css/mobile.min.css") #if display private #end class __ASSET__assets_css_mobile_min_css extends lime.utils.ByteArray {}
 @:file("assets/examples/eg1/d_from_t_for_correlated_samples.xml") #if display private #end class __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples_xml extends lime.utils.ByteArray {}
+@:file("assets/examples/eg1/d_from_t_for_correlated_samples2.xml") #if display private #end class __ASSET__assets_examples_eg1_d_from_t_for_correlated_samples2_xml extends lime.utils.ByteArray {}
 @:file("assets/examples/eg1/main.xml") #if display private #end class __ASSET__assets_examples_eg1_main_xml extends lime.utils.ByteArray {}
 @:file("assets/examples/eg1/manifest.xml") #if display private #end class __ASSET__assets_examples_eg1_manifest_xml extends lime.utils.ByteArray {}
 @:font("assets/fonts/OpenSans-Bold.ttf") #if display private #end class __ASSET__assets_fonts_opensans_bold_ttf extends lime.text.Font {}
@@ -2718,6 +2815,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/haxeui.png") #if display private #end class __ASSET__assets_haxeui_png extends lime.graphics.Image {}
 @:file("assets/haxe_ui_plain.svg") #if display private #end class __ASSET__assets_haxe_ui_plain_svg extends lime.utils.ByteArray {}
 @:image("assets/icons/back_32.png") #if display private #end class __ASSET__assets_icons_back_32_png extends lime.graphics.Image {}
+@:image("assets/icons/calculator_32.png") #if display private #end class __ASSET__assets_icons_calculator_32_png extends lime.graphics.Image {}
+@:image("assets/icons/calculator_black_32.png") #if display private #end class __ASSET__assets_icons_calculator_black_32_png extends lime.graphics.Image {}
 @:image("assets/icons/cross_32.png") #if display private #end class __ASSET__assets_icons_cross_32_png extends lime.graphics.Image {}
 @:image("assets/icons/forward_32.png") #if display private #end class __ASSET__assets_icons_forward_32_png extends lime.graphics.Image {}
 @:image("assets/icons/information_32.png") #if display private #end class __ASSET__assets_icons_information_32_png extends lime.graphics.Image {}
@@ -2727,6 +2826,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/img/a.png") #if display private #end class __ASSET__assets_img_a_png extends lime.graphics.Image {}
 @:image("assets/img/folder_32.png") #if display private #end class __ASSET__assets_img_folder_32_png extends lime.graphics.Image {}
 @:file("assets/ui/about.xml") #if display private #end class __ASSET__assets_ui_about_xml extends lime.utils.ByteArray {}
+@:file("assets/ui/calc/calc.xml") #if display private #end class __ASSET__assets_ui_calc_calc_xml extends lime.utils.ByteArray {}
 @:file("assets/ui/calc.xml") #if display private #end class __ASSET__assets_ui_calc_xml extends lime.utils.ByteArray {}
 @:file("assets/ui/custom/custom.xml") #if display private #end class __ASSET__assets_ui_custom_custom_xml extends lime.utils.ByteArray {}
 @:file("assets/ui/list.xml") #if display private #end class __ASSET__assets_ui_list_xml extends lime.utils.ByteArray {}
@@ -2743,6 +2843,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/css/mobile.css") #if display private #end class __ASSET__css_mobile_css extends lime.utils.ByteArray {}
 @:file("assets/css/mobile.min.css") #if display private #end class __ASSET__css_mobile_min_css extends lime.utils.ByteArray {}
 @:file("assets/ui/about.xml") #if display private #end class __ASSET__ui_about_xml extends lime.utils.ByteArray {}
+@:file("assets/ui/calc/calc.xml") #if display private #end class __ASSET__ui_calc_calc_xml extends lime.utils.ByteArray {}
 @:file("assets/ui/calc.xml") #if display private #end class __ASSET__ui_calc_xml extends lime.utils.ByteArray {}
 @:file("assets/ui/custom/custom.xml") #if display private #end class __ASSET__ui_custom_custom_xml extends lime.utils.ByteArray {}
 @:file("assets/ui/list.xml") #if display private #end class __ASSET__ui_list_xml extends lime.utils.ByteArray {}
@@ -2762,6 +2863,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:font("assets/fonts/Roboto-Medium.ttf") #if display private #end class __ASSET__fonts_roboto_medium_ttf extends lime.text.Font {}
 @:font("assets/fonts/Roboto-Regular.ttf") #if display private #end class __ASSET__fonts_roboto_regular_ttf extends lime.text.Font {}
 @:image("assets/icons/back_32.png") #if display private #end class __ASSET__icons_back_32_png extends lime.graphics.Image {}
+@:image("assets/icons/calculator_32.png") #if display private #end class __ASSET__icons_calculator_32_png extends lime.graphics.Image {}
+@:image("assets/icons/calculator_black_32.png") #if display private #end class __ASSET__icons_calculator_black_32_png extends lime.graphics.Image {}
 @:image("assets/icons/cross_32.png") #if display private #end class __ASSET__icons_cross_32_png extends lime.graphics.Image {}
 @:image("assets/icons/forward_32.png") #if display private #end class __ASSET__icons_forward_32_png extends lime.graphics.Image {}
 @:image("assets/icons/information_32.png") #if display private #end class __ASSET__icons_information_32_png extends lime.graphics.Image {}
@@ -2771,6 +2874,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/img/a.png") #if display private #end class __ASSET__img_a_png extends lime.graphics.Image {}
 @:image("assets/img/folder_32.png") #if display private #end class __ASSET__img_folder_32_png extends lime.graphics.Image {}
 @:file("assets/examples/eg1/d_from_t_for_correlated_samples.xml") #if display private #end class __ASSET__examples_eg1_d_from_t_for_correlated_samples_xml extends lime.utils.ByteArray {}
+@:file("assets/examples/eg1/d_from_t_for_correlated_samples2.xml") #if display private #end class __ASSET__examples_eg1_d_from_t_for_correlated_samples2_xml extends lime.utils.ByteArray {}
 @:file("assets/examples/eg1/main.xml") #if display private #end class __ASSET__examples_eg1_main_xml extends lime.utils.ByteArray {}
 @:file("assets/examples/eg1/manifest.xml") #if display private #end class __ASSET__examples_eg1_manifest_xml extends lime.utils.ByteArray {}
 

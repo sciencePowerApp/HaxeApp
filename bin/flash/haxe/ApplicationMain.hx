@@ -362,6 +362,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/examples/eg1/d_from_t_for_correlated_samples2.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("assets/examples/eg1/main.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -414,6 +418,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("assets/icons/calculator_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/icons/calculator_black_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/icons/cross_32.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -447,6 +459,10 @@ class ApplicationMain {
 		
 		
 		urls.push ("assets/ui/about.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("assets/ui/calc/calc.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
@@ -511,6 +527,10 @@ class ApplicationMain {
 		
 		
 		urls.push ("ui/about.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("ui/calc/calc.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
@@ -590,6 +610,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
+		urls.push ("icons/calculator_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("icons/calculator_black_32.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("icons/cross_32.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -623,6 +651,10 @@ class ApplicationMain {
 		
 		
 		urls.push ("examples/eg1/d_from_t_for_correlated_samples.xml");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
+		urls.push ("examples/eg1/d_from_t_for_correlated_samples2.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
@@ -694,7 +726,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "434",
+			build: "601",
 			company: "...",
 			file: "HaxeApp",
 			fps: 60,

@@ -3,3 +3,4 @@ MenuBar Button,MenuBar Button:over,MenuBar Button:down{filter:none;background-co
 MenuBar Button #icon{width:32;height:32;}
 .title{font-size:25;color:#FFFFFF;}
 .booleanQuestion{font-size:20;}
+.calculatorResult{color:#34495E;}

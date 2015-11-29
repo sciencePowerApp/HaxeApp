@@ -1,5 +1,7 @@
 package com.spa.app.engine;
 import com.spa.app.controllers.CalcController;
+import com.spa.app.engine.calculator.Calculator;
+import com.spa.app.engine.calculator.Calculator.CalculatorInput;
 import com.spa.app.engine.custom.CustomUI;
 import com.spa.app.engine.Definitions.DefintionType;
 import com.spa.app.engine.Manifest.ManifestResourceEntry;
@@ -142,6 +144,8 @@ class Engine {
 				processXMLQuestion(xml);
 			case DefintionType.CUSTOM:	
 				processXMLCustom(xml);
+			case DefintionType.CALCULATOR:	
+				processXMLCalculator(xml);
 		}
 	}
 	
@@ -175,5 +179,96 @@ class Engine {
 		custom.ui = component;
 		
 		definitions.custom.set(custom.id, custom);
+	}
+	
+	private function processXMLCalculator(xml:Xml) {
+		var calcXML:Xml = getNamedElement("calc", xml);
+		if (calcXML == null) {
+			return;
+		}
+		
+		var calc:Calculator = new Calculator();
+		calc.id = xml.nodeName;
+		
+		var headerXML:Xml = getNamedElement("header", calcXML);
+		if (headerXML != null) {
+			trace("has a header");
+		}
+		var footerXML:Xml = getNamedElement("footer", calcXML);
+		if (footerXML != null) {
+			trace("has a footer");
+		}
+		
+		var inputsXML:Xml = getNamedElement("inputs", calcXML);
+		if (inputsXML != null) {
+			if (inputsXML.get("columns") != null) {
+				calc.inputColumns = Std.parseInt(inputsXML.get("columns"));
+			}
+			
+			var order:Int = 0;
+			for (inputXML in inputsXML.elements()) {
+				var input:CalculatorInput = new CalculatorInput();
+				input.id = inputXML.nodeName;
+				input.defaultValue = inputXML.get("default");
+				if (input.defaultValue != null) {
+					input.value = input.defaultValue;
+				}
+				
+				var mathML:Xml = getNamedElement("mathml", inputXML);
+				if (mathML != null) {
+					input.labelXML = mathML;
+				} else if (inputXML.firstChild() != null) {
+					input.label = inputXML.firstChild().nodeValue;
+				}
+				
+				input.order = order;
+				calc.inputs.set(input.id, input);
+				order++;
+			}
+		}
+		
+		var resultsXML:Xml = getNamedElement("results", calcXML);
+		if (resultsXML != null) {
+			if (resultsXML.get("columns") != null) {
+				calc.inputColumns = Std.parseInt(resultsXML.get("columns"));
+			}
+			
+			var order:Int = 0;
+			for (resultXML in resultsXML.elements()) {
+				var result:CalculatorResult = new CalculatorResult();
+				result.id = resultXML.nodeName;
+				result.defaultValue = resultXML.get("default");
+				if (result.defaultValue != null) {
+					result.value = result.defaultValue;
+				}
+				
+				var mathML:Xml = getNamedElement("mathml", resultXML);
+				if (mathML != null) {
+					result.labelXML = mathML;
+				} else if (resultXML.firstChild() != null) {
+					result.label = resultXML.firstChild().nodeValue;
+				}
+				
+				result.formula = resultXML.get("formula");
+				var vars:String = resultXML.get("variables");
+				if (vars != null) {
+					result.variables = vars.split(",");
+				}
+				
+				result.order = order;
+				calc.results.set(result.id, result);
+				order++;
+			}
+		}
+		
+		definitions.calcs.set(calc.id, calc);
+	}
+	
+	private static function getNamedElement(name:String, xml:Xml):Xml {
+		var it:Iterator<Xml> = xml.elementsNamed(name);
+		if (it == null || it.hasNext() == false) {
+			return null;
+		}
+		return it.next();
 	}
 }

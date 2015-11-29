@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest entryPoint="t_test">
 	<resource id="examples/eg1/main.xml" type="asset" />
+	<!--
 	<resource id="examples/eg1/d_from_t_for_correlated_samples.xml" type="asset" />
+	-->	
+
+	<resource id="examples/eg1/d_from_t_for_correlated_samples2.xml" type="asset" />
+
+	
 </manifest>

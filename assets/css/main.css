@@ -28,3 +28,7 @@ MenuBar Button #icon {
 .booleanQuestion {
 	font-size: 20;
 }
+
+.calculatorResult {
+	color: #34495E;
+}

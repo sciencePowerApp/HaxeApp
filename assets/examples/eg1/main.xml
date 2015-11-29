@@ -7,4 +7,8 @@
 			<means_sds_n type="question" value="boolean">Do you have the M's, SD's, and n's?</means_sds_n>
 	
 		<f_test type="question" value="boolean">Is it a F-test?</f_test>
+
+	<!--
+	<t_test type="question" value="boolean" default="yes" yes="d_from_t_for_correlated_samples" no="d_from_t_for_correlated_samples">Is it a t-test?</t_test>
+	-->	
 </definitions>

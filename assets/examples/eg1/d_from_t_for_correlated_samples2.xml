@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<d_from_t_for_correlated_samples type="calc">
+	<calc>
+		<!-- HEADER UI -->
+		<header>Correlated (or Dependent) Samples</header>
+		
+		<!-- INPUTS -->
+		<inputs columns="2">
+			<m1 default="1">Mean 1</m1>
+			<m2 default="2">Mean 2</m2>
+			<SD1 default="0.823272602">SD 1</SD1>
+			<SD2 default="0.948683298">SD 2</SD2>
+			<n default="10">n pairs</n>
+			<r default="10">r</r>
+		</inputs>
+			
+		<!-- RESULTS -->
+		<results columns="2">
+			<Mdiff variables="m1,m2" formula="Math.abs(m1-m2)">
+				<mathml>
+					<msup>
+						<mi>M</mi>
+						<mn>diff</mn>
+					</msup>
+				</mathml>				
+			</Mdiff>
+			
+			<cohenDz variables="r,Mdiff" formula="Mdiff*Math.sqrt(2*(1-r))">cohen's dz</cohenDz>
+			
+			<somevar1 variables="m1,m2" formula="m1 + m2 * 1">x 1</somevar1>
+			<somevar2 variables="m1,m2" formula="m1 + m2 * 2">x 2</somevar2>
+			<somevar3 variables="m1,m2" formula="m1 + m2 * 3">x 3</somevar3>
+			<somevar4 variables="m1,m2" formula="m1 + m2 * 4">x 4</somevar4>
+			<somevar5 variables="m1,m2" formula="m1 + m2 * 5">x 5</somevar5>
+			<somevar6 variables="m1,m2" formula="m1 + m2 * 6">x 6</somevar6>
+			<somevar7 variables="m1,m2" formula="m1 + m2 * 7">x 7</somevar7>
+			<somevar8 variables="m1,m2" formula="m1 + m2 * 8">x 8</somevar8>
+			<somevar9 variables="m1,m2" formula="m1 + m2 * 9">x 9</somevar9>
+			<somevar10 variables="m1,m2" formula="m1 + m2 * 10">x 10</somevar10>
+			
+			<somevar11 variables="m1,m2" formula="m1 + m2 * 11">x 11</somevar11>
+			<somevar12 variables="m1,m2" formula="m1 + m2 * 12">x 12</somevar12>
+			<somevar13 variables="m1,m2" formula="m1 + m2 * 13">x 13</somevar13>
+			<somevar14 variables="m1,m2" formula="m1 + m2 * 14">x 14</somevar14>
+			<somevar15 variables="m1,m2" formula="m1 + m2 * 15">x 15</somevar15>
+			<somevar16 variables="m1,m2" formula="m1 + m2 * 16">x 16</somevar16>
+			<somevar17 variables="m1,m2" formula="m1 + m2 * 17">x 17</somevar17>
+			<somevar18 variables="m1,m2" formula="m1 + m2 * 18">x 18</somevar18>
+			<somevar19 variables="m1,m2" formula="m1 + m2 * 19">x 19</somevar19>
+			<somevar20 variables="m1,m2" formula="m1 + m2 * 20">x 20</somevar20>
+			
+			<somevar21 variables="m1,m2" formula="m1 + m2 * 21">x 21</somevar21>
+			<somevar22 variables="m1,m2" formula="m1 + m2 * 22">x 22</somevar22>
+			<somevar23 variables="m1,m2" formula="m1 + m2 * 23">x 23</somevar23>
+			<somevar24 variables="m1,m2" formula="m1 + m2 * 24">x 24</somevar24>
+			<somevar25 variables="m1,m2" formula="m1 + m2 * 25">x 25</somevar25>
+			<somevar26 variables="m1,m2" formula="m1 + m2 * 26">x 26</somevar26>
+			<somevar27 variables="m1,m2" formula="m1 + m2 * 27">x 27</somevar27>
+			<somevar28 variables="m1,m2" formula="m1 + m2 * 28">x 28</somevar28>
+			<somevar29 variables="m1,m2" formula="m1 + m2 * 29">x 29</somevar29>
+			<somevar30 variables="m1,m2" formula="m1 + m2 * 30">x 30</somevar30>
+		</results>
+		
+		<!-- FOOTER UI -->
+		<footer>Reporting Example: Mean 1 was higher (M = 8.7, SD = 0.82) than Mean 2 (M = 7.7, SD = 0.95),  t(9) = 4.74, p = .001, 95% CI [0.52, 1.48], Hedges’s gav = 1.03 95% CI [0.50, 1.72]. The CL effect size indicates that after controlling for individual differences, the likelihood that a person scores higher for Mean 1 than for Mean 2 is 93%.</footer>
+	</calc>
+</d_from_t_for_correlated_samples>

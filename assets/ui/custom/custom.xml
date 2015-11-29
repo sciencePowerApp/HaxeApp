@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<scrollview width="100%" height="100%" id="scrollview">
+<scrollview width="100%" height="100%" id="scrollview" style="border-size: 0;">
 	<vbox width="100%" id="scrollContent" style="backgroundColor:#FFFFFF">
 	</vbox>
 </scrollview>

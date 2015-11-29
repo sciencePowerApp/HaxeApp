@@ -10,8 +10,8 @@
 		}
 	</style>
 	<hbox width="100%">
-		<box style="padding-top: 5;">
-			<image resource="icons/question_32.png" />
+		<box style="padding-top: 3;">
+			<image resource="icons/information_32.png" />
 		</box>			
 		<text id="questionText" styleName="questionPrompt" width="100%" multiline="true" wrapLines="true" />
 	</hbox>

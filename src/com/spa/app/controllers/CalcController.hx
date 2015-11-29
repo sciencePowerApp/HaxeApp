@@ -1,8 +1,10 @@
 package com.spa.app.controllers;
 
+import com.spa.app.controllers.definitions.calc.CalcUIController;
 import com.spa.app.controllers.definitions.custom.CustomUIController;
 import com.spa.app.controllers.definitions.DefinitionControllerFactory;
 import com.spa.app.controllers.definitions.questions.QuestionController;
+import com.spa.app.engine.calculator.Calculator;
 import com.spa.app.engine.custom.CustomUI;
 import com.spa.app.engine.Definitions.DefintionType;
 import com.spa.app.engine.Engine;
@@ -62,7 +64,10 @@ class CalcController extends BaseController {
 				showQuestion(id);
 			case DefintionType.CUSTOM:
 				showCustom(id);
+			case DefintionType.CALCULATOR:
+				showCalc(id);
 		}
+		
 		updateNavigation();
 	}
 	
@@ -81,6 +86,15 @@ class CalcController extends BaseController {
 	public function showCustom(id:String) {
 		var c:CustomUI = _engine.definitions.custom.get(id);
 		var controller:CustomUIController = DefinitionControllerFactory.buildCustomUIController(c, _engine);
+		if (controller != null) {
+			content.removeAllChildren();
+			content.addChild(controller.view);
+		}
+	}
+	
+	public function showCalc(id:String) {
+		var calc:Calculator = _engine.definitions.calcs.get(id);
+		var controller:CalcUIController = DefinitionControllerFactory.buildCalcUIController(calc, _engine);
 		if (controller != null) {
 			content.removeAllChildren();
 			content.addChild(controller.view);
